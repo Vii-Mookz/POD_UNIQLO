@@ -64,7 +64,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/truckIdValTrip"
+                            android:id="@+id/txtLicensePlate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="0"
@@ -90,7 +90,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/truckTypeValTrip"
+                            android:id="@+id/txtDriverName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="0"

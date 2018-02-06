@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">POD-UNIQLO</string>
+    <string name="Date">วันที่</string>
+    <string name="job">Job</string>
+    <string name="truck_license">ทะเบียนรถ :</string>
+    <string name="driver_name">ชื่อผู้ขับ :</string>
+    <string name="box">Cartons</string>
+    <string name="total">จำนวน</string>
+    <string name="arrival">ถึงจุดหมาย</string>
+    <string name="Savepic">บันทึกรูปภาพ</string>
+    <string name="departure">ออกเดินทาง</string>
+    <string name="transfer">Return</string>
+
+</resources>

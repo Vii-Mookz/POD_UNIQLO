@@ -25,8 +25,8 @@ import butterknife.ButterKnife;
  * Created by Vipavee on 30/01/2018.
  */
 
-public class Adapter extends BaseAdapter {
-    private static final String TAG = Adapter.class.getSimpleName();
+public class JobAdapter extends BaseAdapter {
+    private static final String TAG = JobAdapter.class.getSimpleName();
     private Context context;
     private String[] DOStrings, sourceCodeStrings,locationStrings,loginStrings;
     private ViewHolder viewHolder;
@@ -73,6 +73,8 @@ public class Adapter extends BaseAdapter {
                 bundle.putString("", DOStrings[i]);
                 bundle.putString("", sourceCodeStrings[i]);
                 bundle.putString("",locationStrings[i]);
+
+                jobFragment.setArguments(bundle);
 
                 fragmentTransaction.replace(R.id.contentFragment, jobFragment);
                 fragmentTransaction.commit();
